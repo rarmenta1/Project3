@@ -6,14 +6,17 @@ body	{
 	width: 100%;
 	margin: 0;
 }
-#main-navbar	{
-	background-color: rgb(114, 137, 218);
-	overflow: hidden;
-}
+
+
 #navbar-container	{
 	width: 100%;
 	position: relative;
 }
+#main-navbar	{
+	background-color: rgb(114, 137, 218);
+	overflow: hidden;
+}
+
 #main-navbar ul {
   list-style-type: none;
   margin: 0;
