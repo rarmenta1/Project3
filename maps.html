@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Google Maps</title>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header>
-			<nav id="main-navbar">
-				<section id="navbar-container">
-					<ul>
-						<li><a href="index.html" title="index">Home</a></li>
-						<li><a href="resume.html" title="Resume">Resume</a></li>
-						<li><a href="interests.html" title="Interests">Interests</a></li>
-						<li id ="onpage"><a href="maps.html" title="Google Maps">Google Maps</a></li>
-					</ul>
-				 </section>
-			</nav>
-		</header>
-		<p></p>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google Maps</title>
+	<link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script defer src="js/script.js"></script>
+	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrD-NTuhH3Dc0Z6NB75pSKAa_ZV8R4PH0&callback=initMap"></script>
+  </head>
+  <body>
+    <header>
+      <nav id="main-navbar">
+        <section id="navbar-container">
+          <ul>
+            <li><a href="index.html" title="index">Home</a></li>
+            <li><a href="resume.html" title="Resume">Resume</a></li>
+            <li><a href="interests.html" title="Interests">Interests</a></li>
+			<li id="onpage"><a href="maps.html" title="Google Maps">Google Maps</a></li>
+          </ul>
+         </section>
+      </nav>
+    </header>
+		<h1 id="map-heading">Six Flags Great America</h1>
+		<div id="GoogleMaps">
+			<div id="map"></div>
+		</div>
 	</body>
 </html>

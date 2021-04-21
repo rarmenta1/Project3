@@ -118,6 +118,14 @@ body	{
 	margin-left: auto;
 	margin-right: auto;;
 }
+#map-heading	{
+	color: white;
+	text-align: center;
+	width: 50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;;
+}
 
 #title2	{
 	width: 960px;
@@ -192,3 +200,16 @@ p	{
 	float: left;
 	padding: 0.5em 0;
 }
+
+#GoogleMaps {
+	width: 950px;
+	height: 950px;
+	margin: auto;
+	position: relative; 
+}
+
+#map {
+    height: 700px;
+    width: 100%;
+}
+
