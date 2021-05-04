@@ -70,7 +70,15 @@ function initMap() {
     parkwindow.open(map, park);
   });
 	
-	
-
-	
 }
+
+$(document).ready(function(){
+	$('.slider').bxSlider();
+});
+
+$(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+  });
+});
