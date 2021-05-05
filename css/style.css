@@ -166,19 +166,19 @@ body	{
 }
 
 h1, h2, h3	{
-	font-family: 'Trispace', sans-serif;	
+	font-family: 'Trispace', sans-serif;
 }
 
 
 #main-container	{
 	background-color: #d80000;
-	width: 50%;
-	position: relative;
-	padding: 0.5em 2em;
-	margin-left: auto;
-	margin-right: auto;
-}
+	width: 94%;
+	padding: 0.5em 1em;
 
+}
+#main-container h2	{
+	color: black;
+}
 #main-container2	{
 	background-color: rgb(114, 137, 218);
 	font-family: 'Libre Baskerville', serif;	
@@ -188,16 +188,19 @@ h1, h2, h3	{
 	margin-left: auto;
 	margin-right: auto;
 }
-
+#main-container2 h2, h3	{
+	color: black;
+}
 #main-container3	{
 	background-color: green;
-	width: 50%;
-	position: relative;
-	padding: 0.5em 2em;
-	margin-left: auto;
-	margin-right: auto;
-}
+	width: 94%;
+	padding: 0.5em 1em;
 
+}
+#main-container3	h2	{
+	color: black;
+	text-decoration: underline;
+}
 h3	{
 	text-decoration: underline;
 	font-style: italic;
@@ -224,35 +227,83 @@ p	{
 	float: right;
 }
 
-.desc	{
-
-	padding: 0.5em 0;
-}
-
 #GoogleMaps {
 	color: black;
-	width: 950px;
-	height: 950px;
-	margin: auto;
-	position: relative; 
+	width: 95%;
+	height: 95%;
 }
 #map {
-	color: black;
-  height: 700px;
-  width: 100%;
+	width: 90%;
+	height: 600px;
+	padding: 0.5em 1.5em;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 
-@media screen and (min-width: 800px)	{
-
-	#main-container2	{
-	background-color: rgb(114, 137, 218);
-	font-family: 'Libre Baskerville', serif;	
-	width: 960px;
-	position: relative;
-	padding: 0.25px 50px;
-	margin-left: auto;
-	margin-right: auto;
+@media screen and (min-width: 600px)	{
+	
+	#main-container	{
+		width: 80%;
+		padding: 0.5em 2em;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
+	#main-container3	{
+		width: 85%;
+		padding: 0.5em 2em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#GoogleMaps {
+		color: black;
+		width: 90%;
+		height: 95%;
+	}
+	#map {
+		width: 95%;
+		height: 500px;
+		padding: 0.5em 1.5em;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+}
+
+@media screen and (min-width: 900px)	{
+
+	#main-container	{
+		width: 50%;
+		position: relative;
+		padding: 0.5em 2em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#main-container p	{
+		font-size: 17px;
+	}
+	#main-container3	{
+		width: 50%;
+		position: relative;
+		padding: 0.5em 2em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#main-container3 p, li	{
+		font-size: 17px;
+	}
+	
+	#GoogleMaps {
+		width: 950px;
+		height: 950px;
+		margin: auto;
+		position: relative;
+	}
+	#map {
+		height: 70%;
+		width: 85%;
+		padding: 0 1em;
+		margin: auto;
+	}
 }
